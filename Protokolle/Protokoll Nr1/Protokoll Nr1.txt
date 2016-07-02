@@ -1,0 +1,12 @@
+01.07.2016
+
+Erstes Treffen zur Besprechung der Aufgabenstellung und Klärung eventueller Fragen.
+Ergebnisse:
+Wir haben die vorläufige Struktur unseres Programms festgelegt.
+Dabei gibt es vorerst 3 Scenes für jeweils die Auswahl der Übungsaufgabe aus dem Katalog,
+das Schreiben der Tests (RED), sowie das Schreiben des Codes (GREEN).
+Diese haben wir skizziert sowie erste Aufgaben verteilt.
+Für das nächste Treffen werden wir uns damit befassen wie man die Übungsaufgaben in das Programm lädt.
+Außerdem werden wir uns mit GRADLE und Travis CI befassen, sowie die Scenes erstellen und miteinander verknüpfen.
+Danach beschäftigen wir uns mit der eigentlichen Logik des Programms.
+Das nächste Treffen ist am 6.7. angesetzt.
