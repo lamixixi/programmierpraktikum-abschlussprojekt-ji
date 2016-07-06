@@ -1,13 +1,18 @@
 package application;
 
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.scene.Node;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Labeled;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.input.MouseButton;
 import javafx.scene.input.MouseEvent;
+import javafx.stage.Stage;
 
 import java.io.File;
 import java.net.URL;
@@ -77,6 +82,20 @@ public class MainWindowsController implements Initializable{
 
 	@FXML
 	public void Next(ActionEvent event) { // Butto fur NEXT
+		
+		try{
+			((Node)event.getSource()).getScene().getWindow().hide();
+			Stage primaryStage = new Stage();
+			FXMLLoader loader = new FXMLLoader();
+			Parent root= FXMLLoader.load(getClass().getResource("/application/Red.fxml"));
+			Scene scene = new Scene(root);
+			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
+			primaryStage.setScene(scene);
+			primaryStage.setTitle("Green");
+			primaryStage.show();
+			}catch(Exception e){
+
+			}
 
 	}
 
