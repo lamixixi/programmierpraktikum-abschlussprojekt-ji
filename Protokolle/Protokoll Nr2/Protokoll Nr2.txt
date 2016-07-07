@@ -1,0 +1,8 @@
+06.07.2016
+
+Zweites Treffen.
+Das Ziel des letzten Treffens war erstmal die GUI des Programms zu erstellen und umzusetzen.
+Außerdem wollten wir als erstes sicherstellen das es bei jedem klappt auf das repository zuzugreifen und Sachen pushen zu können.
+Die GUI haben wir gut umsetzen können, beim hochladen gab es aber teilweise Probleme.
+Diese konnten wir aber schnell gemeinsam beseitigen.
+Das nächste Ziel ist es nun die Bibliothek zu integrieren sowie die Logik des Programms voranzutreiben.
