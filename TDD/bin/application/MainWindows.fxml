@@ -15,5 +15,6 @@
           <TableColumn fx:id="column1" prefWidth="389.0" text="Uebungsaufgaben" />
         </columns>
       </TableView>
+      <Button layoutX="423.0" layoutY="22.0" mnemonicParsing="false" onAction="#Laden" prefHeight="23.0" prefWidth="65.0" text="Laden" />
    </children>
 </AnchorPane>
