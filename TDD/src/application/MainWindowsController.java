@@ -25,6 +25,7 @@ import javafx.event.EventHandler;
 
 public class MainWindowsController implements Initializable {
 
+	public static String path;
 	private String Fielname[];
 	
 	protected Labeled selected;
@@ -66,7 +67,7 @@ public class MainWindowsController implements Initializable {
 										selected.setText("");
 										return;
 									}
-									System.out.println(newValue.getName()); // hier kann man den Namen von Datein herausnehmen.
+									path = newValue.getName();
 								});
 					}
 				}
@@ -80,7 +81,6 @@ public class MainWindowsController implements Initializable {
 		try {
 			((Node) event.getSource()).getScene().getWindow().hide();
 			Stage primaryStage = new Stage();
-			FXMLLoader loader = new FXMLLoader();
 			Parent root = FXMLLoader.load(getClass().getResource("/application/Red.fxml"));
 			Scene scene = new Scene(root);
 			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
